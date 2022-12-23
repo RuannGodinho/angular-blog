@@ -1,0 +1,17 @@
+
+.container-menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+}
+.container-menu-bar > ul > li {
+    margin-right: 20px;
+    list-style: none;
+}
+.container-menu-bar > ul > li > a {
+    margin-top: 20px;
+}
+.container-menu-bar > ul > li > img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
