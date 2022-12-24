@@ -1,13 +1,13 @@
 <div class="container-big-card">
     <div class="big-card-foto">
-        <img src="https://arquivo.devmedia.com.br/noticias/documentacao/documentacao_angular-cli-instalacao_38247.png"
+        <img src="{{ photoCover }}"
             alt="" height="200px">
     </div>
     <div class="big-card-titulo">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card-descricao">
-        <p>descricao bla bla só para testar a descricao nesse component</p>
+        <p>{{ cardDescription }} </p>
     </div>
 </div>
